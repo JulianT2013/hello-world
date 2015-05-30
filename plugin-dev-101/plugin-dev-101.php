@@ -1,12 +1,12 @@
 <?php
 
 /*
-Plugin Name: Plugin Development 101
+Plugin Name: "Book" custom post type
 Plugin URI: https://pippinsplugins.com/series/plugin-development-101/
-Description: An introductory course on plugin development
-Author: Pippin Williamson
+Description: Registers a "Book" custom post type
+Author: Julian Tapping
 Version: 1.0
-Author URI: https://pippinsplugins.com
+Author URI: 
 */
 
 function pd101_register_book_post_type() {

@@ -9,7 +9,7 @@ Version: 1.0
 Author URI: https://pippinsplugins.com
 */
 
-function pd101_message_shortcode ( 'atts') {
+function pd101_message_shortcode ( '$atts') {
 	return '<div class="message blue">' . $atts['text'] . '</div>';
 }
 add_shortcode( 'message', 'pd101_message_shortcode' );

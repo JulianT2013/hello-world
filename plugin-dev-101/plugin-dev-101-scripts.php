@@ -17,7 +17,6 @@ if (is_admin()) {
 } else {
 	include( PD101_PLUGIN_PATH . 'includes/scripts.php' );
 }
-}
 
 
 include( PD101_PLUGIN_PATH . 'includes/post-types.php' );

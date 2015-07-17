@@ -1,2 +1,1 @@
-# hello-world
-test
+# Julian's WordPress Playground.

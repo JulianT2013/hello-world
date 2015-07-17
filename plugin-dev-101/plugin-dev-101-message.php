@@ -11,16 +11,12 @@ Author URI: https://pippinsplugins.com
 
 function pd101_message_shortcode ( $atts ) {
 
-	$atts = shortcode_atts {
-		array(
-			'color'  == 'blue',
-			'text'	  == 'text message'
-			),
-			$atts
-	};
+	$atts = shortcode_atts(
+				array(
+					'color' => 'blue',
+					'text' => 'text message'
+					), $atts );
 
 	return '<div class="message ' . esc_attr( $atts['color'] ) . '">' . esc_html( $atts['text'] ) . '</div>';
 }
 add_shortcode( 'message', 'pd101_message_shortcode' );
-
-?>

@@ -46,4 +46,3 @@ function pd101_register_book_post_type() {
 
 }
 add_action( 'init', 'pd101_register_book_post_type' );
-?>
